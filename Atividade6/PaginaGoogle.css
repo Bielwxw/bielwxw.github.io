@@ -1,0 +1,131 @@
+body {
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Tema Claro */
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #333;
+    /* Tema Escuro */
+    color: white
+}
+
+.dark-theme a:hover {
+    color: #ccc;
+}
+
+
+img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    left: 500px;
+    top: 140px;
+}
+
+#pesquisa {
+    position: relative;
+    top: 150px;
+    left: 378px;
+    width: 600px;
+    height: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* Sombra 3D */
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.botao {
+    position: relative;
+    top: -180px;
+    left: 600px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    /* Apenas o canto direito do botão é arredondado */
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img.microfone {
+    position: absolute;
+    height: 33px;
+    left: 900px;
+    top: 360px;
+    z-index: 2;
+}
+
+img.camera {
+    position: absolute;
+    height: 35px;
+    left: 960px;
+    top: 360px;
+    z-index: 2;
+}
+
+#alternar {
+    position: relative;
+    left: 1220px;
+    top: 250px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.background {
+    position: relative;
+    left: 1050px;
+    top: -255px;
+    transition: .3s;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.background :hover {
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+
+
+#divisao {
+    position: relative;
+    top: 250px;
+}
+
+a {
+    position: relative;
+    top: -310px;
+    left: 900px;
+    color: black
+}
+
+
+#icmg {
+    position: relative;
+    top: -310px;
+    left: 920px;
+    color: black
+}
