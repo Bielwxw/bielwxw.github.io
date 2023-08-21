@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pesquisa</title>
+    <link rel="stylesheet" href="SurveyForm.css" type="text/css">
+    <link rel="shortcut icon" href="ifal-foto.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1 id="cbc">Survey Form</h1>
+    <div class="inicial">
+        <p>Let us Know how we can improve freeCodeCamp</p>
+        <br>
+        <form>
+            <p id="identificacao"><strong>* Name : </strong>
+                <input type="text" placeholder="Enter your Name" required>
+            </p>
+            <p><strong>* Email : </strong>
+                <input type="email" placeholder="Enter your Email" required>
+            </p>
+            <p id="idade"><strong>* Age :</strong>
+                <input type="number" placeholder="Age" required>
+            </p>
+            <br>
+            <p id="esquerda"><strong>Option best describes your current role ?</strong>
+                <label for="escolhaOpcao"></label>
+
+                <select id="select1" name="opcao">
+                    <option value="Student">Student</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Military">Military</option>
+                    <option value="Worker">Worker</option>
+                    <option value="Retiree">Retiree</option>
+                    <option value="others">others</option>
+                </select>
+            </p>
+
+            <p id="Es2"><strong>* How likely is that you would recommend</strong></p>
+            <p id="Es3"><strong>freeCodeCamp to a friend ?</strong></p>
+            <div class="opcoes">
+                <label>
+                    <input type="checkbox" name="Definitly" value="Definitly">: Definitly
+                    <br>
+                    <input type="checkbox" name="Maybe" value="Maybe">: MAYBE
+                    <br>
+                    <input type="checkbox" name="Not sure" value="Not sure">: Not sure
+                </label>
+            </div>
+            <div class="fedback">
+                <p><strong>What do you like most in FCC:</strong>
+                    <label for="selectOption2"></label>
+                    <select id="select2">
+                        <option value="Select an option">Select an option</option>
+                        <option value="Nothing">Nothing</option>
+                        <option value="Aesthetics">Aesthetics</option>
+                        <option value="Everything">Everything</option>
+                    </select>
+                </p>
+            </div>
+            <br>
+
+            <p id="penultimo"><strong>Things that should be improved in the future</strong></p>
+            <p id="ultimo"><strong>(Check all that apply)</strong></p>
+
+
+
+            <label id="opcao2">
+                <input type="checkbox" name="Front-end Projects" value="Front-end Projects" required>: Front-end
+                Projects
+                <br>
+                <input type="checkbox" name="Back-end Projects" value="Back-end Projects">: Back-end Projects
+                <br>
+                <input type="checkbox" name="Data visualization" value="Data visualization" class="correcao">: Data
+                visualization
+            </label>
+            <br>
+
+            <input type="submit">
+
+
+            <div class="apagar">
+                <input type="reset">
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>

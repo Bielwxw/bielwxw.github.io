@@ -1,0 +1,122 @@
+
+body {
+    border: cornflowerblue ; /* Defina a largura e a cor da borda conforme necessário */
+    padding: 10px; /* Isso é opcional, mas pode ser útil para adicionar espaço entre as bordas e o conteúdo */
+    background-color: rgb(26, 24, 24); /* Define o fundo do conteúdo como transparente */
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h1{
+    color : rgb(10, 236, 40);
+    background-color: black;
+    text-shadow: 2px 2px 5px;
+    border : solid;
+    margin-top: 10px;
+    margin-left: 280px;
+    margin-right: 280px;
+
+  }
+  
+.inicial {
+    background-color: #fff;
+   width: 90vw;
+}
+#idade {
+  margin-left: 12px;
+}
+
+select:hover{
+  background-color: lightgray; 
+  border: 2px solid rgb(8, 224, 8);
+}
+
+#select1{
+  background-color: lightgray;
+  width: 160px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+
+#select2{
+  width: 180px;
+  background-color: lightgray;
+  height: 30px;
+  margin-left: 10px;
+}
+
+
+
+input{
+  background-color: rgb(230, 218, 218);
+  height: 20px;
+
+
+  
+}
+
+#esquerda {
+  text-align: left;
+  text-indent: 320px;
+}
+#Es2 {
+    text-align: left;
+    text-indent: 320px;
+}
+#Es3{
+  text-align: left;
+    text-indent: 420px;
+}
+.opcoes{
+    appearance: none;
+    position: relative;
+    top: -70px;
+    left : 50px;
+}
+
+.fedback{
+  text-align: left;
+  text-indent: 370px;
+  margin-top: -54px;
+  
+}
+
+#penultimo{
+  text-align: left;
+  text-indent: 320px;
+  margin-left: -35px;
+
+}
+#ultimo{
+  text-align: left;
+    text-indent: 420px;
+    margin-left: 20px;
+}
+
+#opcao2{
+  position: relative;
+  left: 80px;
+  top:-78px;
+}
+.correcao{
+  margin-left: 0px;
+}
+
+input[type="submit"] {
+  box-sizing: border-box;
+  width: 83px;
+  position: relative;
+  top : -24px ;
+  height: 25px;
+  left: 50px;
+}
+
+input[type = "reset"]{
+  position :relative;
+  top: -50px;
+  height: 26px;
+  right: 70px;
+  width:83px ;
+}
