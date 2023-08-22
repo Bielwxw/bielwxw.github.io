@@ -7,36 +7,42 @@
     <title>Página web</title>
     <link rel="stylesheet" href="PaginaGoogle.css" type="text/css">
     <link rel="shortcut icon" href="icone-micro.jpg" type="image/x-icon">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 
 <body>
-    <form>
+    <section>
+        <header>
+            <div class = "conteiner">
+                <a class="distanicia" href="https://store.google.com/br/?hl=pt-BR&pli=1">Store</a>
+                <a class="distanicia" href="https://about.google/">About</a>
+            </div>
+            <div class="conteiner">
+                <a class="distanicia" target="_blank" href="http://mail.google.com/mail?hl=pt-BR">Gmail</a>
+                <a class="distanicia" target="_blank" href="https://www.google.com/imghp?hl=pt-BR&ogbl">Images</a>
+                <span class="material-symbols-outlined apps">apps</span>
+                <span class="material-symbols-outlined notification">circle_notifications</span>
+                <button class="distanicia" id="botao">Fazer login</button>
+            </div>
+        </header>
+    </section>
+    <main>
         <img src="https://th.bing.com/th/id/R.e922648e1a0f7f7cc33fab77d0cc5b24?rik=ygMRfsTCi%2byu5A&pid=ImgRaw&r=0">
-        <img class="microfone" src="microphone.png">
-        <img class="camera" src="camera.png">
-        <input id="pesquisa" type="text" placeholder="Pesquisar">
-        <button class="botao">Fazer login</button>
-        <div class="conteiner">
-            <button id="alternar">Alternar tema</button>
-        </div>
-        <div class="background">
-            <span class="material-symbols-outlined">
-                apps
-            </span>
+        <div class="inputbusca">
+            <input id="pesquisa" type="text" placeholder="Pesquisar">
+            <img class="microfone" src="microphone.png">
+            <img class="camera" src="camera.png">
         </div>
 
-        <hr id="divisao">
-
-        <div>
-            <a target="_blank" href="http://mail.google.com/mail?hl=pt-BR">Gmail</a>
-            <a id="icmg" target="_blank" href="https://www.google.com/imghp?hl=pt-BR&ogbl">Imagens</a>
+        <div id="botoes">
+            <button id="pg" type="text">Google Search</button>
+            <button id="pg" type="text">I'm feeling lucky</button>
         </div>
+    </main>
+    <footer>
+        <button id="alternar">Alternar tema</button>
+    </footer>
 
-
-    </form>
     <script src="script.js"></script>
 </body>
 
