@@ -12,7 +12,7 @@ body {
     color: white
 }
 .dark-theme a {
-    color: white;
+    color: white; 
 }
 .dark-theme a:hover {
     color: #d6d6d6;
@@ -20,8 +20,8 @@ body {
 
 
 img {
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; 
     height: 200px;
 }
 
@@ -38,11 +38,9 @@ img {
 
 img.microfone {
     height: 33px;
-    z-index: 2;
 }
 img.camera {
     height: 35px;
-    z-index: 2;
 }
 
 #alternar {
@@ -55,16 +53,6 @@ img.camera {
     outline: none;
 }
 
-
-.background {
-    transition: .3s;
-    border-radius: 100%;
-    cursor: pointer;
-    padding: 10px;
-}
-.background :hover {
-    background-color: rgba(0, 0, 0, 0.507);
-}
 
 a {
     color: black;
@@ -86,7 +74,7 @@ a:hover {
         'FILL' 1,
         'wght' 700,
         'GRAD' 0,
-        'opsz' 48
+        'opsz' 48 
 }
 .material-symbols-outlined:hover {
     background-color: #7e7e7e60;
@@ -118,6 +106,7 @@ main{
     height: 85vh;
 }
 .inputbusca{
+    padding: 5px;
     display: flex;
     width: 600px;
     height: 35px;
