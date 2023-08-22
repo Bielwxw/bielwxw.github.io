@@ -25,7 +25,7 @@ img {
     height: 200px;
 }
 
-#botao {
+#login {
     background-color: #4285f4;
     color: #fff;
     border: none;
@@ -69,6 +69,7 @@ img.camera {
 a {
     color: black;
     text-decoration-line: none;
+    padding: 0px 10px 0px 10px;
 }
 a:hover {
     text-decoration-line: underline;
@@ -108,12 +109,7 @@ header{
     align-items: center;
 }
 
-.distanicia{
-    padding: 0px 10px 0px 10px;
-}
-.distaniciaa{
-    padding: 0px 150px 0px 10px;
-}
+
 main{
     display: flex;
     justify-content: center;
