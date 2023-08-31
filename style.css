@@ -54,6 +54,8 @@ a:hover {
 }
 
 .muda-cor {
+    display: flex;
+    justify-content: center;
     background: linear-gradient(to left, white 50%, black 50%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -74,4 +76,17 @@ a:hover {
 .claro svg:hover,
 .escuro svg:hover {
     fill: #808080;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+#hugo{
+    color : rgb(55, 55, 224);
+}
+#code{
+    color : rgb(55, 55, 224);
 }
