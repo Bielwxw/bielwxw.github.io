@@ -2,10 +2,7 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px; 
-    width: 300px; 
-    height: 300px; 
-
+    gap: 30px;
 }
 
 .grid-item {
@@ -14,45 +11,40 @@
     padding: 20px;
     font-size: 24px;
     padding: 25px;
-    width: 430%;
-    height: 500px;
 }
 
-p{
+p {
     display: flex;
-    padding: 0px;
-    color : rgba(8, 7, 7, 0.705);
+    padding: 0px; 
+    color: rgba(8, 7, 7, 0.705);
     font-size: 20px;
 }
 
-h2{
+h2 {
     display: flex;
-      text-align: left;
-      color : black; 
+    text-align: left;
+    color: black;
 }
 
-a{
+a {
     display: inline;
-      margin-left: 20px;
-  color : black;
-  background-color: rgb(196, 136, 26);
-  width: 70px;
+    margin-left: 20px;
+    color: black;
+    background-color: rgb(196, 136, 26);
+    width: 70px;
 }
 
 hr {
-    border: none; /* Remover a borda padrão */
-    border-top: 1px solid #ccc; /* Adicionar uma borda personalizada como linha */
     margin: 0;
-    width: 447%;
 }
 
-h3{
-    color: black;
+h3 {
     display: flex;
     justify-content: center;
+    text-decoration-line: underline;
+    color: black;
 }
 
-h4{
-    color : black
+h4 {
+    color: black
 }
-
