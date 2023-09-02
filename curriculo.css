@@ -38,6 +38,8 @@ hr {
 }
 
 h3 {
+    display : flex ;
+    justify-content: center;
     text-decoration-line: underline;
 }
 
