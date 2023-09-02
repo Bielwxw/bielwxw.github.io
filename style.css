@@ -78,12 +78,6 @@ a:hover {
     fill: #808080;
 }
 
-footer {
-    position: absolute;
-    bottom: 20px;
-    font-size: 12px;
-}
-
 #hugo{
     color : rgb(55, 55, 224);
 }
@@ -96,7 +90,31 @@ footer {
    color : white;
 }
 
-.nome{
-    margin-left: 50px;
+footer {
+    position: absolute;
+    bottom: 10px;   
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 0;
 }
 
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 10px;
+        padding: 5px 0;
+    }
+}
+
+
+
+.nome {
+    margin-left: 5%; 
+}
+
+@media screen and (max-width: 768px) {
+    .nome {
+        margin-left: 0; 
+        text-align: center; 
+    }
+}
