@@ -106,7 +106,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .nome { 
-        margin-left: 0; 
+        margin-left: 20px; 
         text-align: center; 
     }
     header {
@@ -119,6 +119,7 @@ footer {
     footer {
         font-size: 10px;
         padding: 5px 0;
+        margin-bottom: 0;
     }
     body{
         width: 100vw;
