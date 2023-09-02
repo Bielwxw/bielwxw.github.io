@@ -1,5 +1,5 @@
-body {
-    background-color: #f5eeee;
+body{
+    background-color: rgba(243, 235, 235, 0.863);
 }
 
 .grid-container {
@@ -12,12 +12,11 @@ body {
 .grid-item {
     padding: 20px;
     font-size: 24px;
-    padding: 25px;
 }
 
 p {
     display: flex;
-    padding: 0px; 
+    padding: 0px;
     color: rgba(8, 7, 7, 0.705);
     font-size: 20px;
 }
@@ -44,3 +43,10 @@ h3 {
     justify-content: center;
     text-decoration-line: underline;
 }
+
+/* Adicionar espaçamento superior ao segundo bloco (Experience) */
+.grid-item:nth-child(2) {
+    margin-top: 10px;
+}
+
+/* Restante do seu CSS */
