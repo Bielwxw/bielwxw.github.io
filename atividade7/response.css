@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bolder;
+    font-weight: bolder; 
 }
 
 .bloco:hover{

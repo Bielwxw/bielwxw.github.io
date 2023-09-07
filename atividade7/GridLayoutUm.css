@@ -10,7 +10,7 @@ div{
     border-radius: 5px;
     padding: 20px;
     margin: 5px;
-}
+}   
 
 #one{
     grid-row-start: 1;
@@ -23,7 +23,7 @@ div{
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 4;
-}
+}  
 
 #three{
     grid-row-start: 2;

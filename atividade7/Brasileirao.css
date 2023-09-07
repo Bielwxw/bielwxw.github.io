@@ -7,7 +7,7 @@ body{
 
 .tabela{
     border-collapse: collapse;
-    width: fit-content;
+    width: fit-content; 
 }
 
 .linha{
@@ -18,7 +18,7 @@ body{
 
 .topo {
     background-color: rgb(196, 196, 196);
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .container{
@@ -28,7 +28,7 @@ body{
     padding: 5px 10px;
 }
 .img{
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 
 .container.img img{
