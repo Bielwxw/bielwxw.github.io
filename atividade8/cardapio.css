@@ -1,7 +1,5 @@
-/*Página de Cardápio*/
-/*Cardárpio Banner*/
 div#cardapiobanner{
-    background-image: url(logo-restarunt.png);
+    background-image: url(logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,13 +8,6 @@ div#cardapiobanner{
     font-family: monospace;
     position: relative;
     text-align: center;
-}
-
-
-
-#titulo-carda{
-    color :black;
-    font-size: 20px;
 }
 
 div#textocardapiobanner{
@@ -67,6 +58,3 @@ div#prato1{
     margin-left: 12px;
     height: 200px;
 }
-
-
-/**/
