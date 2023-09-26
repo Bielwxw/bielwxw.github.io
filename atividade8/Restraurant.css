@@ -12,6 +12,10 @@
     overflow: hidden;
 }
 
+#avalia{
+    width: 2%;
+}
+
 h5{
     width: 30%;
 }
@@ -62,3 +66,8 @@ footer{
 #enviar-email{
     margin-left: 25%;
 }
+
+#busca{
+    margin-left: 10%;
+}
+
