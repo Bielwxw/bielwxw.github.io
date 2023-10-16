@@ -1,5 +1,6 @@
 const input = document.getElementById("txtNumRows");
 const table = document.getElementById("sampleTableBody");
+let contador = 3;
 
 function js_add_rows() {
     const inputValue = input.value;
@@ -12,13 +13,13 @@ function js_add_rows() {
         return;
     }
 
-    table.innerHTML = ``;
     for (let i = 1; i <= inputValue; i++) {
         table.innerHTML += `
         <tr>
-            <td>Row${i} cell1</td>
-            <td>Row${i} cell2</td>
+            <td>Row${contador} cell1</td>
+            <td>Row${contador} cell2</td>
         </tr>
         `
+        contador++;
     }
 }
