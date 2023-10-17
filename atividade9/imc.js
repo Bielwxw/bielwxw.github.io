@@ -19,7 +19,7 @@ function atualizarCard() {
     let pesoValue = peso.value.replace(",", ".");
     let alturaValue = altura.value.replace(",", ".");
 
-    if (isNaN(pesoValue) || isNaN(pesoValue)) {
+    if (isNaN(pesoValue) || isNaN(alturaValue)) {
         alert("Você não colocou números em um campo de peso ou altura")
         fecharCard();
         return
