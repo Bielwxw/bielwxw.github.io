@@ -41,8 +41,35 @@ main {
     height: 110%;
     z-index: 1;
     position: absolute;
-    left: -20%;
+    left: -15%;
     top: -5%;
+}
+
+.btn-robotron {
+    color: #ddd;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    z-index: 10;
+    height: 65px;
+    width: 50px;
+    top: 50%;
+    border: none;
+    position: absolute;
+    transition: .2s background;
+    background: rgba(0,0,0,0.6);
+}
+
+.btn-robotron:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+#anterior {
+    left: 0;
+}
+
+#proximo {
+    right: 0;
 }
 
 .titulo {
@@ -65,7 +92,7 @@ main {
     height: 80%;
 }
 
-/****************************** Equipamentos *****/
+/********** Equipamentos ***/
 
 .equipamentos {
     flex-basis: 32%;
@@ -150,7 +177,7 @@ main {
 
 
 
-/****************************** Estatísticas *****/
+/********** Estatísticas ***/
 .estatisticas {
     flex-basis: 23%;
     padding: 2em 2em 0;

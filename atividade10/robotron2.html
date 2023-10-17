@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,16 @@
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="./img/robotron.png" alt="Robotron">
+            <div id="robotron-container">
+                <img class="robo" style="display: block;" id="robotron-vermelho" src="./img/robotron-vermelho.png" alt="Robotron Vermelho">
+                <img class="robo" style="display: none;" id="robotron-rosa" src="./img/robotron-rosa.png" alt="Robotron Rosa">
+                <img class="robo" style="display: none;" id="robotron-amarelo" src="./img/robotron-amarelo.png" alt="Robotron Amarelo">
+                <img class="robo" style="display: none;" id="robotron-branco" src="./img/robotron-branco.png" alt="Robotron Branco">
+                <img class="robo" style="display: none;" id="robotron-preto" src="./img/robotron-preto.png" alt="Robotron Preto">
+                <img class="robo" style="display: none;" id="robotron-azul" src="./img/robotron-azul.png" alt="Robotron Azul">
+            </div>
+            <button class="btn-robotron" id="anterior">&lt;&lt;</button>
+            <button class="btn-robotron" id="proximo">&gt;&gt;</button>
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
         </section>
 
