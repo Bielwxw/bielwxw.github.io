@@ -40,7 +40,7 @@ function adicionar() {
     `
 }
 
-function calcular() {
+function calcular() { 
     if (gastos.length === 0) {
         alert("Nada para calcular aqui");
         return;
@@ -55,7 +55,7 @@ function calcular() {
     extratoMercadoMaior.innerText = 'Maior gasto com Mercado: ' + maiorGasto();
     extratoMercadoTotal.innerText = 'Total de gastos com Mercado: ' + mercadoTotal();
     let mes;
-    extratoMeses.innerHTML = "";
+    extratoMeses.innerHTML = " ";
 
     for (let i = 0; i < gastos.length; i++) {
         let mesGasto = gastos[i].data.split("/")[1];
