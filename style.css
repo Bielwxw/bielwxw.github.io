@@ -127,3 +127,19 @@ footer {
     }
 }
 
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0;
+    width: 100vw;
+}
+
+.flexible-space {
+    flex: 1; /* Ocupa o espaço disponível */
+}
+
+header a {
+    margin: 0 10px;
+    color: white; /* Adicionei a cor branca aos links */
+}
